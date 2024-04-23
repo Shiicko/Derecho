@@ -1,0 +1,157 @@
+@media screen and (max-width: 772px) {
+  #about-us {
+    padding: 20px;
+  }
+
+  #hero {
+    background-color: #c8d9ed;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .text-container h1 {
+    font-size: 36px;
+    background-color: rgb(153, 201, 218);
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .logo {
+    display: flex;
+    /* padding: 5px; */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo h2 {
+    display: block;
+    color: #c8d9ed;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .about-text {
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+  }
+
+  /* Estilos para las áreas de trabajo */
+  #servicios {
+    padding: 15px;
+  }
+
+  .service-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: calc(100% - 30px);
+    margin-bottom: 15px;
+    padding: 8px;
+  }
+
+  .service-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-card h2 {
+    margin-top: 20px; /* Ajusta el valor según sea necesario */
+  }
+
+  .work-area-card p {
+    display: none;
+  }
+
+  .work-area-card {
+    padding: 0;
+  }
+
+  .work-area-cards {
+    justify-content: center;
+  }
+
+  .work-area-card img {
+    max-width: 100%;
+    height: 110px;
+    object-fit: cover;
+    object-position: center;
+  }
+  /* Estilos para los testimonios */
+  #testimonials {
+    padding: 20px;
+  }
+
+  /* Estilos para el contacto */
+  #contact {
+    padding: 20px;
+  }
+
+  /* Estilos para el footer */
+  footer {
+    padding: 20px;
+  }
+  .h2client {
+    padding: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+  }
+}
+
+/* Estilos para dispositivos Android */
+@media screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .h2client {
+    padding: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .work-area-card img {
+    max-width: 100%;
+    height: 125px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Estilos para dispositivos iPhone */
+@media screen and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .h2client {
+    padding: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .work-area-card img {
+    max-width: 100%;
+    height: 125px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
